@@ -1,0 +1,33 @@
+/* body {
+    font-size: 18px;
+    font-family: tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+}
+
+li {
+    color: aqua;
+
+}
+
+a {
+    color: red;
+} */
+
+.body {
+    font-size: 18px;
+    font-family: tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+
+}
+
+.lista {
+    color: aqua;
+}
+
+.enlace {
+    color:red;
+}
