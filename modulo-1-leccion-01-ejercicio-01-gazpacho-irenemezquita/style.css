@@ -1,0 +1,16 @@
+html {
+    background-color: #f3f4f5;
+  }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+p, div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #757575;
+}
+
