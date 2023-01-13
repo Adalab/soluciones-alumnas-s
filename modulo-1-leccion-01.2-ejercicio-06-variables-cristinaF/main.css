@@ -1,0 +1,55 @@
+:root{
+    --colorGn: green;
+    --colorGy:grey;
+    --pad20: 20px;
+    --marg0:0;
+  }
+  
+  
+  body {
+    margin:var(--marg0);
+  }
+  
+  header{
+    background-color:#eaeaea;
+    padding:var(--pad20);
+  }
+  
+  main{
+    padding:var(--pad20);
+  }
+  
+  p{
+    width:50%;
+    font-size: 16px
+  }
+  
+  ul{
+    list-style-type:none;
+    padding:var(--pad20);
+  }
+  
+  .title{
+    color:var(--colorGy);
+    margin:var(--marg0);
+  }
+  
+  .subtitle{
+    color:var(--colorGy);
+    margin:var(--marg0);
+  }
+  
+  .menu li {
+    display:inline
+  }
+  
+  .menu a {
+    color:var(--colorGn);
+    text-decoration:none
+  }
+  
+  p a {
+    color:var(--colorGn);
+  }
+  
+  

@@ -1,0 +1,28 @@
+.div1{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    /* display: block; */
+    /* display:inline; */
+    /* display: inline-block;  */
+    /* display:none; desaparece el div y el espacio en pantalla que ocupaba, los otros divs se corren hacia arriba tapando la antigua posicion del div1. */
+}
+
+.div2{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    /* display: block; */
+    /* display: inline; Si los Div están vacíos de contenido y se ponen inline, desaparecen, ya que solo ocupan el expacio de su contenido. Si tiene 
+    contenido, el ancho y alto se va a dapatar a éste, aunque hayamos especificado width/height para el div de otro tamaño. */
+    /* display: inline-block; En este caso el Div conserva las medidas de width y height, aunque se ponen en la misma linea, uno tras otro. */
+}
+
+.div3{
+    background-color: rgb(152, 42, 3);
+    width: 100px;
+    height: 100px;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+}
