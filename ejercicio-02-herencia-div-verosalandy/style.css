@@ -1,0 +1,16 @@
+.body {
+    font-size: 18px;
+    font-family: Tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+  }
+
+.enlace-item a {
+    color: red;
+}
+
+.enlace-div a {
+    color: hsla(300, 100%, 50%, 0.7)
+}
+
