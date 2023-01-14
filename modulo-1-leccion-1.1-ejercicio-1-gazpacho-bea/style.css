@@ -1,0 +1,13 @@
+html{
+   background-color: #f3f4f5;
+}
+h1, h2, h3, h4{
+    font-family: Arial, sans-serif;
+    font-size: 20px ;
+    color: black ;
+}
+p, ul, ol{
+    font-family: georgia ;
+    font-size: 18px ;
+    color: #757575 ;
+}
