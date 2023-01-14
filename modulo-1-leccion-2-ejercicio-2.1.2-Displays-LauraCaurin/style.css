@@ -1,0 +1,35 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+	text-align: center;
+    display: none;
+}
+/*
+.box {
+    width: 100px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid blue;
+	text-align: center;
+    display: inline;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid blue;
+	text-align: center;
+    display: inline-block;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+	text-align: center;
+    display: block;
+}
+
+*/

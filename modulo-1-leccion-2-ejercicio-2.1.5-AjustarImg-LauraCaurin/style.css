@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: auto;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px;
+    box-sizing: border-box;
+}
+
+/*Al aplicar padding y border el contenedor de la imagen crece y no encaja con el contenedor padre.
+
+Al aplicar border-box el contenedor de la imagen se acopla al contenedor padre. La imagen ya no será de 100px por 100px porque le restael tamaño del border y padding.
+*/
