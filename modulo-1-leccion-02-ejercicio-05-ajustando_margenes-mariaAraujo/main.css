@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: auto;
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px ;
+    box-sizing: border-box;
+}
+
+/* Al añadir un padding de 10px, la imagen se separa un poco del margen superior izquierdo y queda fuera del contenedor. */
+/* Al añadir el border-box, la imagen queda encuadrada dentro del contenedor, quedando una imagen de 80x80. */
