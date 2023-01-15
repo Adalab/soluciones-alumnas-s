@@ -1,0 +1,27 @@
+.row p {
+    background-color: plum;
+    width: 100px;
+    height: 100px;
+    display: block;
+    
+}
+
+span {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+.fila p {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.row p  {
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
