@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Modelo de caja</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ejercicios modelo de caja</h1>
+    </header>
+    <main>
+      <section>
+        <h2>1.Marcando</h2>
+        <p>
+          <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit</mark>.
+          Corporis nam quos deserunt voluptatibus sequi molestiae nesciunt, et
+          illum eos accusamus quisquam nobis placeat aperiam ullam quis officiis
+          consequatur! Minima, debitis. Debitis suscipit cum ratione a iste
+          temporibus similique, quae natus repellendus facilis maxime saepe
+          doloremque adipisci fugit, possimus blanditiis minus voluptates
+          cupiditate cumque veniam ab consequatur! Eligendi doloremque cum
+          optio?
+        </p>
+        <p>
+          La etiqueta mark subraya el texto envuelto y lo resalta. Se puede
+          utilizar para destacar una parte importante de un texto y darle más
+          importancia.
+        </p>
+      </section>
+      <section>
+        <h2>2.Displays</h2>
+        <div class="display1"></div>
+        <div class="display2"></div>
+        <div class="display3"></div>
+      </section>
+      <section>
+        <h2>3.Imagen en párrafo</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <img
+            src="https://via.placeholder.com/100"
+            alt="100x100px placeholder image"
+          />
+          Sit consequatur eveniet dolor! Molestias minus a laborum impedit
+          repudiandae, at magni quod labore consequatur quas, quis illum
+          necessitatibus vitae, officia eum!
+        </p>
+        <p>
+            La imágen se comporta como si usaramos la propiedad display: inline. Aparece sin ningún tipo de salto de línea.
+        </p>
+      </section>
+      <section>
+        <h2>4.Imagen entre párrafos</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          consequatur eveniet dolor! Molestias minus a laborum impedit
+          repudiandae, at magni quod labore consequatur quas, quis illum
+          necessitatibus vitae, officia eum!
+        </p>
+        <img
+          src="https://via.placeholder.com/200"
+          alt="200x200px placeholder image"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          accusamus alias et optio veniam hic assumenda dolores numquam? Debitis
+          hic obcaecati nostrum quod commodi sit magni distinctio blanditiis
+          voluptates deserunt?
+        </p>
+      </section>
+      <section>
+        <h2>5.Ajustando imágenes</h2>
+        <div class="borderbox">
+          <img
+            src="https://via.placeholder.com/100"
+            alt="100x100px placeholder image"
+          />
+        </div>
+        <p>
+          La imagen dentro del div sale fuera de los límites por usar border-box
+          y reducir su área útil con el padding y el border
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.display1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: block;
+    color: white;
+}
+
+.display2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(109, 60, 155);
+    display: inline;
+    color: white;
+}
+
+.display3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 46, 85);
+    display: inline-block;
+    color: white
+}
+
+.borderbox{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid greenyellow;
+    box-sizing: border-box;
+}
