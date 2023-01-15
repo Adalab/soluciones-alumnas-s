@@ -1,0 +1,32 @@
+.row p {
+    background-color: plum;
+    width: 100px;
+    height: 100px;
+    display: block;
+    
+}
+
+span {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+.fila p {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.oculto{
+    display: none;
+}
+
+.inblock {
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
