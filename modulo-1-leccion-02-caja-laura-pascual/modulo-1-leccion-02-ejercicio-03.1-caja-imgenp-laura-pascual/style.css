@@ -1,0 +1,10 @@
+.all {
+    display: inline;
+}
+.imagen {
+    height: 100px;
+    width: 100px;
+}
+.text {
+    text-align: justify;
+}
