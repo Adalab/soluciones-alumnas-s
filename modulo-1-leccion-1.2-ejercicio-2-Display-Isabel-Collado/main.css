@@ -1,0 +1,22 @@
+.div1 {
+
+    height: 100px;
+    width: 100px;
+    display: inline;
+    background-color: red;
+}
+
+
+.div2 {
+    height: 100px;
+    width: 100px;
+    display: block;
+    background-color: purple; 
+}
+
+.div3 {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: green; 
+}
