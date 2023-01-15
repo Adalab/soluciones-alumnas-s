@@ -1,0 +1,26 @@
+/* * { Hoja de reset, quitar los estilos que trae por defecto el navegador
+    font-weight: normal;
+    font-size: 10pt;
+    margin: 0;
+} */
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.titulo {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f3f4f5;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
