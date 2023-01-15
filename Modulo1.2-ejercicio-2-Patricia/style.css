@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, san-serif;
+    padding: 16px;
+  }
+  
+  .page-title {
+    margin: 0;
+  }
+  
+  .main {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .gato-info {
+    width: 300px;
+    padding: 8px 16px;
+    margin: 16px;
+    border-left: 3px solid #3af6f9;
+    background-color: #95bec1;
+    display: inline-block;
+  
+  }
+  
+  
+  .gato_info * {
+    display: inline;
+  }
+  
+  .gato__name {
+    margin: 8px 0;
+    width: 100px;
+    height: 100px;
+    
+  }
+  .gato_blanco  {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  
+  
+  
