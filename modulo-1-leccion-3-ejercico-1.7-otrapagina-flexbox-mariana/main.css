@@ -1,0 +1,116 @@
+:root {
+    --color-principal: rgb(126, 124, 124);
+    --color-titulo: rgb(100, 99, 99);
+    --colo-secundario: rgb(34, 33, 33);
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.principal-container {
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left-container {
+    width: 400px;
+    display:flex;
+    flex-direction: row;  
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px; 
+}
+
+.img {
+    margin: 2px 2px;
+}
+
+.title {
+    font-size: 12px;
+    color: var(--color-titulo);
+    margin: 4px 8px;  
+}
+
+ .subtitle {
+     font-size: 10px;
+     color:  var(--color-principal);
+     margin: 5px 8px; 
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;   
+}
+
+.button1 {
+    
+    background-color: var(--color-principal);
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 8px 8px;
+}
+
+.button2 {
+    border: 2px solid var(--color-principal);
+    color: rgb(126, 124, 124);
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 8px 8px;
+}
+
+
+.valoraciones {
+    font-size: 10px;
+    text-align: right;
+    font-weight: bold;
+    color: var(--colo-secundario);
+    margin: 4px 0; 
+}
+
+.comments {
+    font-size: 10px;
+    color:  var(--color-principal);
+    margin: 0;   
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.puntuacion {
+    background-color: var(--color-principal);
+    font-size: 10px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 9px;
+    margin: 4px 0;   
+}
+
+.icono {
+    color:var(--color-principal);
+    margin-bottom: 20px;
+}
+
+
+
+    
