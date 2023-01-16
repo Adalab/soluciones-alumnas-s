@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, san-serif;
+    padding: 16px;
+  }
+  
+  .page-title {
+    margin: 0;
+  }
+  
+  .main {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .user-info {
+    width: 300px;
+    padding: 8px 16px;
+    margin: 16px;
+    border-left: 3px solid #f93af9;
+    background-color: #f3f3f3;
+  
+    /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR POR QUE PASA
+     **/
+    /* display: inline; 
+    El contenedor únicamente se posiciona y ocupa, el espacio de su elemento. */
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    /* display: inline-block; El resto de contenidos, se posicionan al lado de este, ya que les deja espacio. */
+    
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    /* text-align: center; El texto se queda centrado en la web. */
+  }
+  
+  .user-info * {
+    display:inline;
+  }
+  
+  .user-info__name {
+    margin: 8px 0;
+  }
+  
+  .user-info__mail {
+    display: inline-block;
+    max-width: 284px;
+    padding: 4px;
+    margin-bottom: 8px;
+    background-color: #d4d4d4;
+    color: #f93af9;
+    text-decoration: none;
+    font-weight: bold;
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    
+    /* overflow-x: scroll; El contenido rosa, permite realizar scroll y no ocupa espacio de más. El texto, se posiciona dentro de los contenedores. */
+    
+     /* DESCOMENTAR LAS SIGUIENTES LINEAS
+     * Y OBSERVAR QUE PASA
+     **/
+    
+    /* overflow: hidden; El contenido que sobresale del contenedor, queda oculto. */
+    /* text-overflow: ellipsis; una parte del contenido, queda ileíble, es decir, muestra puntos suspensivos (...), en lugar de mostrar el texto correspondiente (gmail).*/
+  }
