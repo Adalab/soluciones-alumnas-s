@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    height: 500px;
+    width: 500px;
+    background-color: deeppink;
+    border: darkviolet dotted;
+    }
+
+.box{
+    
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: chartreuse;
+    border: 3px dotted;
+    
+}
