@@ -1,0 +1,20 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.dog {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px;
+    box-sizing: border-box;
+
+}
+
+/* COMENTARIO:
+Al poner box-sizing: border-box;, lo que ocurre es que la imagen se posiciona dentro de los márgenes que se han estipulado en el box. 
+Si no pusiéramos box-sizing: border-box;, lo que ocurriría sería que la imagen ocuparía más espacio y, por lo tanto, esta quedaría fuera de los márgenes de la caja. 
+La imagen deja de ser de 100x100, ya que está restando los valores px del padding (10px) y del border (5px). Si modificamos estos valores (mayores) y quitamos el border-box, podremos ver como el contenedor que contiene la imagen, coge espacio externo y en el box, se podrá apreciar más color de fondo (más espacio). De esta manera, gracias al border-box, el contenedor imagen, está posicionado en el contenedor padre.*/
