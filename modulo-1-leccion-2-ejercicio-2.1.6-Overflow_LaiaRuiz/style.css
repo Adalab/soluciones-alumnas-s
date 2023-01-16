@@ -1,0 +1,17 @@
+.container {
+    border: 2px solid deeppink; /* He aumentado +1px el borde, para que se aprecie mejor */
+  }
+  .col {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+  }
+  .container--1 {
+    height: 100px;
+    width: 200px;
+    overflow: hidden; /* De esta manera, ocultamos el contenido */
+  }
+  .container--2 {
+    height: 200px;
+    overflow: auto; /* Gracias a este overflow, podemos realizar scroll y ver el contenido */
+  }
