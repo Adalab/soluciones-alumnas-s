@@ -1,0 +1,29 @@
+/* .body {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+}
+
+
+.links {
+    color: red;
+} */
+
+.body {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+}
+
+
+.enlaces a {
+    color: red;
+}
+
+.enlaces_2 a {
+    color: green;
+} /* Si no especificamos el item a, los bullets se ponen verdes. Al especificarlo, los enlaces son los que se ponen verdes y los bullets lilas. */
