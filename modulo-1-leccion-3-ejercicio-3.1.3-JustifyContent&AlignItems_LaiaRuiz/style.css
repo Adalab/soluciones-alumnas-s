@@ -1,0 +1,17 @@
+/*Menú horizontal, contenedor flex de 100px height.*/
+
+.menu {
+    height: 100px;
+    list-style-type: none; /*Con list-style-type: none; indicamos que no se van a utilizar bullets o marcas de ningún tipo, al lado de los elementos de la lista.
+    También puede ser list-style.*/
+    display: flex;
+    flex-direction: row; /*Menú horizontal.*/
+    padding: 0 20px; /*20px izq y dcha.*/
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    align-items: center; /*Opciones centradas*/
+    justify-content: space-between; /*Importante para que cada item vaya a su lugar. Quede cada opción del menú separada.*/
+    border: solid lightcoral 2px;
+}
+
+
