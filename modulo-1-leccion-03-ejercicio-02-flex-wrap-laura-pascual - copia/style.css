@@ -1,0 +1,12 @@
+.container {
+    background-color: gainsboro;
+    display:flex;
+    flex-wrap: wrap;
+}
+.item {
+    box-sizing: border-box;
+    border: 1px solid purple;
+    width:200px;
+    height: 100px;
+    text-align: center;
+}

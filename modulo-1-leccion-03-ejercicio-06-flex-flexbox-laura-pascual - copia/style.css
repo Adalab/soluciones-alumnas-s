@@ -1,0 +1,36 @@
+.container {
+    max-width: 960px;
+    height: 25vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    
+}
+.header {
+    background-color: red;
+    width: 100%;
+}
+
+.aside-1 {
+    background-color: yellow;
+    width: 25%;
+}
+
+.article {
+    background-color: blue;
+    width: 50%;
+}
+
+.aside-2 {
+    background-color: pink;
+    width: 25%;
+}
+
+.footer {
+    background-color: green;
+    width: 100%;
+}
