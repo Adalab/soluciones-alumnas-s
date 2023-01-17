@@ -1,0 +1,36 @@
+.container {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.item {
+    box-sizing: border-box; 
+    width: 200px;
+    height: 100px;
+    border: 5px solid rgb(236, 75, 215);
+}
+.item {
+    padding: 25px;
+    background: pink;
+    text-align: left;
+    font-size: 36px;
+}
+.menu {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid pink;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+.option {
+box-sizing: border-box;
+width: 100px;
+border-left: 20px;
+border-right: 20px;
+
+}
