@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    background-color: rgb(43, 43, 43);
+    color: rgb(168, 168, 168);;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.div-header{
+    display: flex;
+    flex-direction: row;
+    width:600px;
+    justify-content: space-between;
+}
+
+.nav-header a, .nav-footer a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    color:rgb(168, 168, 168);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
+    color:grey;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.autorFecha{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;  
+}
+
+
+main p{
+    padding: 3rem 0rem;
+  
+}
+
+footer{
+    border-top:rgb(177, 177, 177) solid 2px;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    color:grey; 
+    background-color: white;
+}
+
+.div-footer{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
