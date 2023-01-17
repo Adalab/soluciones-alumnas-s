@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row; /*Al haber elegido row,
+        el eje principal es el horizontal, es decir, va a lo largo de la fila (según la dirección de la línea).*/
+    border: solid black 2px;
+    /* align-items: center; Serviría para centrar los contenedores, las cajas. */
+}
+
+.box {
+    background-color: lightgrey;
+    border: black dotted 1px;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+        
