@@ -1,0 +1,31 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.divMadre>div{
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.caja1{
+    background-color: blue;
+    position: relative;
+    left: 100px;
+}
+
+.caja2{
+    background-color: blueviolet;
+    position: relative;
+    right: 150px;
+    bottom: 320px;
+}
+
+.caja3{
+    background-color: violet;
+    position: relative;
+    left: 180px;
+    bottom: 240px;
+}
