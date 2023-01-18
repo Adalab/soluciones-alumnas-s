@@ -1,0 +1,6 @@
+html {
+    max-width: 600px;
+}
+.container {
+    transform: translate(86%);
+}
