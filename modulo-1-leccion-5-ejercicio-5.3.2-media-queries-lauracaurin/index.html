@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media queries</title>
+
+    <style>
+      /*hasta 480*/
+      @media all and (max-width: 480px) {
+        .body {
+          background: red;
+        }
+      }
+
+      /*Entre 480 y 768*/
+      @media all and (min-width: 480px) and (max-width: 768px) {
+        .body {
+          background: yellow;
+        }
+      }
+      /*A partir de 768 */
+      @media all and (min-width: 768px) {
+        .body {
+          background: green;
+        }
+      }
+    </style>
+  </head>
+  <body class="body"></body>
+</html>

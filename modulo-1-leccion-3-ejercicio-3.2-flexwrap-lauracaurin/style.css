@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: rgb(185, 169, 224);
+    border: solid 2px white;
+    width: 200px;
+    height: 100px;
+}
+
+:root {
+    --color: blue; 
+}

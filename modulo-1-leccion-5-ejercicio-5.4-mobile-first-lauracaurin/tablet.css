@@ -1,0 +1,9 @@
+.nav {
+    max-width: 480px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    padding: 15px;
+    width: 50%;
+    border: 0.5px solid rgb(65, 97, 61);
+}
+
+.img_cat {
+    width: 100%;
+}
+
+.article_5 {
+    width: 100%;
+     order: -1;  /*como todos los demás son 0 por dfecto el -1 lo pone en 1º lugar */
+    
+}
