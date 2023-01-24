@@ -1,0 +1,54 @@
+:root {
+   --margin-small: 0; 
+   --padding-change: 20px;
+   --first-color: grey;
+   --link-color: green;
+}
+  
+  body {
+    margin:var(--margin-zero);
+  }
+  
+  header{
+    background-color:#eaeaea;
+    padding:var(--padding-change);
+  }
+  
+  main{
+    padding:var(--padding-change);
+  }
+  
+  p{
+    width:50%;
+    font-size: 16px
+  }
+  
+  ul{
+    list-style-type:none;
+    padding:0 /*El repetido es de 20px*/
+  }
+  
+  .title{
+    color:var(--first-color);
+    margin:var(--margin-zero);
+  }
+  
+  .subtitle{
+    color:var(--first-color);
+    margin:var(--margin-zero);
+  }
+  
+  .menu li {
+    display:inline
+  }
+  
+  .menu a {
+    color:var(--link-color);
+    text-decoration:none
+  }
+  
+  p a {
+    color:var(--link-color);
+  }
+  
+  
